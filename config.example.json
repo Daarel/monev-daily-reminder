@@ -1,0 +1,9 @@
+{
+  "groupName": "Nama Grup Magang",
+  "message": "Jangan lupa absen hari ini ya 🙏",
+  "timezone": "Asia/Jakarta",
+  "workdays": [1, 2, 3, 4, 5],
+  "skipBeforeHour": 20,
+  "skipAfterHour": 21,
+  "authDir": "auth"
+}

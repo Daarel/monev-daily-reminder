@@ -1,0 +1,23 @@
+{
+  "name": "monev-daily-reminder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kirim pengingat absen harian ke grup WhatsApp (Senin–Jumat 20:00 WIB).",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "login": "node src/index.js login",
+    "groups": "node src/index.js groups",
+    "dry-run": "node src/index.js send --dry-run",
+    "send": "node src/index.js send",
+    "send:force": "node src/index.js send --force"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "pino": "10.4.0",
+    "qrcode-terminal": "0.12.0"
+  }
+}
